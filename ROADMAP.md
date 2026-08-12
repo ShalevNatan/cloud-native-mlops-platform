@@ -1,69 +1,41 @@
-# Project Roadmap
+# Roadmap
 
-## Phase 0 — Foundation
-- Repository setup
-- Project definition
-- Architecture definition
-- AWS preparation
-- Development environment
-- Claude project configuration
+## Phase 0 — Problem & Architecture Research
 
-## Phase 1 — AWS Infrastructure
-- AWS networking
-- IAM
-- Terraform state
-- ECR
-- EKS
-- Supporting infrastructure
+- [x] Create GitHub repository
+- [x] Document Kubernetes autoscaling
+- [x] Document AWS autoscaling and predictive scaling
+- [x] Define the problem statement
+- [x] Define the initial research hypothesis
+- [ ] Design the workload and experiment
+- [ ] Define evaluation methodology
 
-## Phase 2 — Kubernetes Platform
-- Application deployment
-- Services
-- Ingress
-- Resource management
-- Health checks
-- Autoscaling
+## Phase 1 — Infrastructure
 
-## Phase 3 — CI/CD and GitOps
-- GitHub Actions
-- Container build pipeline
-- ECR publishing
-- Helm
-- ArgoCD
-- GitOps workflow
+- [ ] Design AWS/EKS architecture
+- [ ] Define Terraform structure
+- [ ] Provision development environment
+- [ ] Deploy Kubernetes baseline
+- [ ] Configure HPA
+- [ ] Configure Karpenter
+- [ ] Establish monitoring
 
-## Phase 4 — Observability
-- Prometheus
-- Grafana
-- Application metrics
-- Kubernetes metrics
-- Dashboards
-- Alerting
+## Phase 2 — Baseline
 
-## Phase 5 — ML Workload
-- Dataset
-- Model training
-- Model evaluation
-- Inference service
-- Containerization
+...
 
-## Phase 6 — MLOps
-- MLflow
-- Experiment tracking
-- Model registry
-- Model versioning
-- Model deployment
+## Phase 3 — ML / Forecasting
 
-## Phase 7 — ML-Assisted Scaling
-- Workload prediction
-- Scaling recommendations
-- Kubernetes integration
-- Comparison with traditional HPA
+...
 
-## Phase 8 — Hardening and Portfolio
-- Security review
-- Failure testing
-- Cost optimization
-- Documentation
-- Architecture diagrams
-- Interview preparation
+## Phase 4 — Proactive Scaling
+
+...
+
+## Phase 5 — Evaluation
+
+...
+
+## Phase 6 — MLOps / Productionization
+
+...
